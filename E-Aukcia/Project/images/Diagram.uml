@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/dadvo/Vysoka/2.Semester/OOP/Git_Repo/Project</OriginalElement>
+  <nodes>
+    <node x="-155.0" y="1099.0">Model.Entity.Fila</node>
+    <node x="-155.0" y="364.0">Model.Entity.Admin</node>
+    <node x="-155.0" y="1221.0">Model.ItemList</node>
+    <node x="750.0" y="1521.0">UI.AdminPage</node>
+    <node x="211.0" y="1643.0">UI.AddItem</node>
+    <node x="33.0" y="1643.0">UI.AddMoney</node>
+    <node x="1415.0" y="725.0">Model.Entity.Wallet.Factory</node>
+    <node x="583.0" y="1643.0">Model.CorrectInfo</node>
+    <node x="478.5" y="530.0">Model.Entity.Item</node>
+    <node x="441.0" y="1221.0">Model.WriteFile</node>
+    <node x="1044.0" y="1099.0">Model.Entity.Balenciaga</node>
+    <node x="415.0" y="1099.0">Model.Entity.Adidas</node>
+    <node x="191.0" y="1221.0">UI.Auction</node>
+    <node x="103.0" y="320.0">Model.Entity.User.Builder</node>
+    <node x="1426.0" y="1221.0">UI.Main</node>
+    <node x="1180.0" y="1521.0">UI.ShowItem</node>
+    <node x="715.0" y="1099.0">Model.Entity.NewBalance</node>
+    <node x="774.0" y="1221.0">Model.Login</node>
+    <node x="1228.0" y="1221.0">Model.ReadFile</node>
+    <node x="968.0" y="1521.0">UI.showMyInventory</node>
+    <node x="76.0" y="1521.0">Model.ButtonHandler</node>
+    <node x="528.0" y="1521.0">UI.SuccesfullRegister</node>
+    <node x="1390.0" y="530.0">Model.Entity.Wallet</node>
+    <node x="127.0" y="1099.0">Model.Entity.Nike</node>
+    <node x="366.0" y="1643.0">Model.InvalidExeption</node>
+    <node x="-34.5" y="-271.0">Model.Entity.User</node>
+    <node x="-155.0" y="1521.0">UI.NotificationWindow</node>
+    <node x="1389.0" y="1521.0">Model.AuctionTime</node>
+    <node x="305.0" y="1521.0">controler.Corection</node>
+    <node x="1017.0" y="1221.0">UI.Registration</node>
+    <node x="-155.0" y="1643.0">controler.ArrayPlus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Entity.Admin" target="Model.Entity.User" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-36.0" y="295.0" />
+      <point x="21.75" y="295.0" />
+      <point x="-56.25" y="270.5" />
+    </edge>
+    <edge source="Model.Entity.Nike" target="Model.Entity.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="261.0" y="1074.0" />
+      <point x="555.0" y="1074.0" />
+      <point x="0.0" y="259.5" />
+    </edge>
+    <edge source="Model.Entity.NewBalance" target="Model.Entity.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="869.5" y="1074.0" />
+      <point x="555.0" y="1074.0" />
+      <point x="0.0" y="259.5" />
+    </edge>
+    <edge source="Model.Entity.Adidas" target="Model.Entity.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="259.5" />
+    </edge>
+    <edge source="Model.Entity.Balenciaga" target="Model.Entity.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1194.5" y="1074.0" />
+      <point x="555.0" y="1074.0" />
+      <point x="0.0" y="259.5" />
+    </edge>
+    <edge source="Model.Entity.Wallet.Factory" target="Model.Entity.Wallet" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="Model.Entity.User.Builder" target="Model.Entity.User" relationship="INNER_CLASS">
+      <point x="0.0" y="-82.5" />
+      <point x="192.0" y="295.0" />
+      <point x="134.25" y="295.0" />
+      <point x="56.25" y="270.5" />
+    </edge>
+    <edge source="Model.Entity.Fila" target="Model.Entity.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-24.0" y="1074.0" />
+      <point x="555.0" y="1074.0" />
+      <point x="0.0" y="259.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4400795624067628" showDependencies="false" x="722.2723163841808" y="735.861581920904" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
